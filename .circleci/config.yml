@@ -19,6 +19,7 @@ jobs:
     steps:
       - checkout
       - run: |
+      - circleci sample.py
           # echo Hello, World!
 
 workflows:
