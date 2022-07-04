@@ -19,11 +19,6 @@ jobs:
     steps:
       - checkout
       - run: |
-          name: Start app and test
-          command: |
-            yarn
-            yarn run start
-            yarn run circleci sample.py
           # echo Hello, World!
 
 workflows:
