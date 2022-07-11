@@ -9,7 +9,7 @@ browserstack_local_identifier = os.getenv("BROWSERSTACK_LOCAL_IDENTIFIER")
 
 caps = {
  'os': 'Windows',
- 'browser': 'chrome',
+ 'browser': 'Chrome',
  'browserstack.local': browserstack_local,
  'browserstack.localIdentifier': browserstack_local_identifier,
  'browserstack.user': username,
