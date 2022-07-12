@@ -22,7 +22,7 @@ jobs:
     steps:
       - python/install-packages:
           app-dir: https://github.com/harsh-browserstack/hello-world/blob/main/circleci_sample.py 
-          args: sudo pip3 install selenium 
+          args: pip3 install selenium 
       - checkout
       - run: |
           python3 circleci_sample.py
