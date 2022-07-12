@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
       - run: |
-          pip install selenium
+          sudo pip3 install selenium
           python3 circleci_sample.py
           # echo Hello, World!
 
